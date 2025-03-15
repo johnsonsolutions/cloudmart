@@ -1,4 +1,4 @@
-public.ecr.aws/l8q0h8u9/cloudmart-frontend:latestapiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cloudmart-frontend-app
@@ -17,7 +17,6 @@ spec:
       - name: cloudmart-frontend-app
         image: CONTAINER_IMAGE
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
